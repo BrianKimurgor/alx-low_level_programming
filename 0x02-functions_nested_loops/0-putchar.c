@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * main - Program that prints _putchar
  * followed by a new line
@@ -16,5 +17,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-	return (0)
+	return (0);
 }
