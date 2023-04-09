@@ -1,9 +1,15 @@
-# C - Bit Manipulation
+# C Bit Manipulation
 
-Bit manipulation is like playing with LEGO blocks, but instead of blocks, we use bits! Bits are tiny pieces of information that computers use to store and process data. They can only have two values: 0 or 1.
+Bit manipulation is the act of changing the value of individual bits in a number. In C, you can use bitwise operators to manipulate bits.
 
-In C, we can use special tools called "bitwise operators" to build and change numbers using bits. For example, we can use the `&` operator to turn off certain bits in a number, or the `|` operator to turn them on. We can also use the `^` operator to flip bits from 0 to 1 or from 1 to 0.
+## Bitwise Operators
 
-With bit manipulation, we can do all sorts of cool things like compressing data to save space or making our programs run faster. It's like building a castle with LEGO blocks, but instead of blocks, we use bits!
+There are several bitwise operators in C that you can use to manipulate bits:
 
-So let's start playing with bits and see what amazing things we can build!
+- `&` (bitwise AND): This operator compares each bit of two numbers. If both bits are 1, the result is 1. Otherwise, the result is 0.
+- `|` (bitwise OR): This operator compares each bit of two numbers. If either bit is 1, the result is 1. Otherwise, the result is 0.
+- `^` (bitwise XOR): This operator compares each bit of two numbers. If the bits are different, the result is 1. Otherwise, the result is 0.
+- `~` (bitwise NOT): This operator flips all the bits in a number. If a bit is 1, it becomes 0. If a bit is 0, it becomes 1.
+- `<<` (left shift): This operator shifts all the bits in a number to the left by a certain number of positions.
+- `>>` (right shift): This operator shifts all the bits in a number to the right by a certain number of positions.
+
