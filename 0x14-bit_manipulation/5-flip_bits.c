@@ -12,8 +12,7 @@ unsigned int flip_bits(unsigned long int j, unsigned long int k)
 
 	for (bits_num = 0; j || k; j >>= 1, k >>= 1)
 	{
-		if ((j & 1) != (k & 1))
-			bits_num++;
+		bits_num += ((j & 1) != (k & 1)) ? 1 : 0;
 	}
 
 	return (bits_num);
