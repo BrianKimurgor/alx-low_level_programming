@@ -7,17 +7,13 @@
  */
 size_t print_dlistint(const dlistint_t *h)
 {
-    const dlistint_t *current = h; /* Start from the head of the list */
-    size_t count = 0; /* Initialize the count of nodes */
+	int count = o;
 
-    /* Traverse the list and print each element */
-    while (current != NULL)
-    {
-        printf("%d\n", current->n);
-        current = current->next;
-        count++;
-    }
-
-    return count; /* Return the number of nodes */
+	while (h != NULL)
+	{
+		printf("%d\n", h->n);
+		h = h->next;
+		count += 1;
+	}
+	return (count);
 }
-
